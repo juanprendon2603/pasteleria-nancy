@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 5000;
 
 
 //ajustes 
-app.set('port', 4000);
+
 app.set('views', path.join(__dirname, 'views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
