@@ -13,6 +13,10 @@ router.get('/contacto', (req, res) => {
 
 });
 
+router.get('/nosotros', (req, res) => {
+    res.render('nosotros.html', {title: 'Nosotros'});
+
+});
 router.get('/ingreso', (req, res) => {
     res.render('ingreso.html', {title: 'Ingreso Aplicacion'});
 
